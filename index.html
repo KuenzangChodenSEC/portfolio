@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>HomePage</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Decorative rectangles (top & bottom) -->
+  <div class="page-decor-top" aria-hidden="true"></div>
+  <div class="page-decor-bottom" aria-hidden="true"></div>
+
+  <header class="header-wrap">
+    <div class="header-inner">
+      <nav class="nav">
+        <a class="active" href="index.html">HomePage</a>
+        <a href="introduction.html">Introduction</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-filler"></div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-left">
+        <!-- replace with your actual wide cover image -->
+        <img src="images/home-hero.jpg" alt="portfolio hero">
+        <div class="title-plate">Portfolio</div>
+      </div>
+
+      <aside class="hero-right">
+        <!-- small right column content that mimics sample -->
+        <div style="width:100%; text-align:left">
+          <h3 style="font-size:18px;margin-bottom:6px">Quick Navigation</h3>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <div style="background:rgba(200,195,193,0.9);padding:8px 10px;border-radius:4px;font-weight:700">Introduction</div>
+            <div style="background:rgba(200,195,193,0.9);padding:8px 10px;border-radius:4px;font-weight:700">Education</div>
+            <div style="background:rgba(200,195,193,0.9);padding:8px 10px;border-radius:4px;font-weight:700">Skills</div>
+          </div>
+        </div>
+
+        <div style="margin-top:14px; width:100%; text-align:left">
+          <div class="under-dots">
+            <div class="dot"></div><div class="dot long"></div><div class="dot"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- tiny decorative line under main hero like sample -->
+    <div style="height:12px"></div>
+
+    <div style="display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
+      <div style="flex:1;min-width:320px">
+        <div style="background:rgba(255,255,255,0.95);padding:18px;border-radius:6px;box-shadow:0 8px 18px rgba(0,0,0,0.04)">
+          <h2 style="margin-bottom:10px">Welcome</h2>
+          <p style="color:#4a443f">This is the homepage section — replace the text and image with your content. The header, top decorations and the dotted/rectangular lines are intentionally placed to match the sample.</p>
+          <div class="under-dots" style="margin-top:16px">
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="width:240px">
+        <div style="background:rgba(255,255,255,0.9);padding:12px;border-radius:6px;text-align:center">
+          <img src="images/home-side.jpg" style="width:100%;height:140px;object-fit:cover;border-radius:4px" alt="side art">
+          <div style="font-weight:700;margin-top:10px">Portfolio</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">©2025 Kuenzang Choden</footer>
+</body>
+</html>
