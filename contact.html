@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-decor-top" aria-hidden="true"></div>
+  <div class="page-decor-bottom" aria-hidden="true"></div>
+
+  <header class="header-wrap">
+    <div class="header-inner">
+      <nav class="nav">
+        <a href="index.html">HomePage</a>
+        <a href="introduction.html">Introduction</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <div class="header-filler"></div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="contact-panel">
+      <form class="contact-form" action="#" method="POST" onsubmit="alert('This is a demo form'); return false;">
+        <h3 style="margin-bottom:10px">Contact Me</h3>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <div style="display:flex;gap:8px;align-items:center;justify-content:flex-start">
+          <button type="submit">Send</button>
+        </div>
+        <div class="under-dots" style="margin-top:12px">
+          <div class="dot"></div><div class="dot long"></div><div class="dot"></div>
+        </div>
+      </form>
+
+      <div style="width:360px; min-width:240px; display:flex;align-items:center;justify-content:center;">
+        <img src="images/contact-illustration.png" alt="contact" style="width:100%; max-width:320px; border-radius:8px; box-shadow:0 10px 20px rgba(0,0,0,0.06)">
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">©2025 Kuenzang Choden</footer>
+</body>
+</html>
